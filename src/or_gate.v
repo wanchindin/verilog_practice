@@ -1,5 +1,5 @@
 module or_gate(
-    input wire a, b
+    input wire a, b,
     output wire y
 );
     assign y = a | b;
