@@ -1,0 +1,169 @@
+$date
+	Fri Aug  8 15:36:49 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_traffic_light_timer $end
+$var wire 2 ! light [1:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var parameter 2 $ GREEN $end
+$var parameter 2 % RED $end
+$var parameter 2 & YELLOW $end
+$var reg 2 ' light [1:0] $end
+$var reg 2 ( next_state [1:0] $end
+$var reg 2 ) state [1:0] $end
+$var reg 3 * timer [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 &
+b0 %
+b1 $
+$end
+#0
+$dumpvars
+b0 *
+b0 )
+b0 (
+b0 '
+1#
+0"
+b0 !
+$end
+#1
+1"
+#2
+0"
+0#
+#3
+b1 *
+1"
+#4
+0"
+#5
+b10 *
+1"
+#6
+0"
+#7
+b11 *
+1"
+#8
+0"
+#9
+b1 (
+b100 *
+1"
+#10
+0"
+#11
+b1 !
+b1 '
+b1 )
+b0 *
+1"
+#12
+0"
+#13
+b1 *
+1"
+#14
+0"
+#15
+b10 (
+b10 *
+1"
+#16
+0"
+#17
+b10 !
+b10 '
+b10 )
+b0 *
+1"
+#18
+0"
+#19
+b0 (
+b1 *
+1"
+#20
+0"
+#21
+b0 !
+b0 '
+b0 )
+b0 *
+1"
+#22
+0"
+#23
+b1 *
+1"
+#24
+0"
+#25
+b10 *
+1"
+#26
+0"
+#27
+b11 *
+1"
+#28
+0"
+#29
+b1 (
+b100 *
+1"
+#30
+0"
+#31
+b1 !
+b1 '
+b1 )
+b0 *
+1"
+#32
+0"
+#33
+b1 *
+1"
+#34
+0"
+#35
+b10 (
+b10 *
+1"
+#36
+0"
+#37
+b10 !
+b10 '
+b10 )
+b0 *
+1"
+#38
+0"
+#39
+b0 (
+b1 *
+1"
+#40
+0"
+#41
+b0 !
+b0 '
+b0 )
+b0 *
+1"
